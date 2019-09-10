@@ -48,9 +48,11 @@ const Form = props => {
             />
 
             <select name="role" onChange={handleChange} value={newMember.role}>
-                <option>Back End Engineer</option>
+                <option>Role:</option>
                 <option>Front End Engineer</option>
+                <option>Back End Developer</option>
                 <option>UX Designer</option>
+                <option>Disc Jockey</option>
             </select>
 
             <button type="submit">Submit</button>

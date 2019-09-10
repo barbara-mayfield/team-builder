@@ -7,9 +7,9 @@ import Member from './components/Member'
 function App() {
   const [member, setMember] = useState([
     {
-      name: "Member Name",
-      email: "e-mail",
-      role: "Role"
+      name: "",
+      email: "",
+      role: ""
     }
   ]);
 
