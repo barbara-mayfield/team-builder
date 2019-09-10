@@ -57,6 +57,7 @@ const Form = props => {
 
             <button type="submit">Submit</button>
             <button type="button" onClick={resetForm}>Reset</button>
+            
         </form>
     )
 }
