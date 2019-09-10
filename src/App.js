@@ -2,19 +2,20 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Form from './components/Form'
+import Member from './components/Member'
 
 function App() {
-  const [member, newMember] = useState([
+  const [member, setMember] = useState([
     {
-      name: "name",
-      email: "email",
-      role: "role"
+      name: "Member Name",
+      email: "e-mail",
+      role: "Role"
     }
   ]);
 
   return (
     <div className="App">
-      <Form />
+      <Form member={member} setMember={setMember} />
       <Member member={member} />
     </div>
   );
